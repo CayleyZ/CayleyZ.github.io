@@ -4,4 +4,4 @@ push.sh
 .bundle/
 .jekyll-cache/
 .sass-cache/
-vendor/
+/vendor/
