@@ -17,15 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello👋! I am Zijian Zhou (周仔谏), a Ph.D. student in the School of Computer Science and Engineering at the University of Electronic Science and Technology of China (UESTC), Chengdu, China, starting from Spring 2026. I am advised by Prof. Malu Zhang (张马路).
+Hello👋! I am Zijian Zhou (周仔谏), a Ph.D. student in the School of Computer Science and Engineering at the University of Electronic Science and Technology of China (UESTC), Chengdu, China, starting from Spring 2026. I am advised by Prof. Malu Zhang (张马路). Currently, I am also participating in a joint Ph.D. program at the Shenzhen Loop Area Institute.
 
-My research interests broadly encompass Brain-inspired Computing, Spiking Neural Networks, Model Compression, Multimodal Large Language Models, etc. I have published papers in leading AI conferences and journals, including ICML, ICLR, NeurIPS, AAAI, and IJCAI. My Google Scholar citation record is available here <a href='https://scholar.google.com/citations?user=1VlWbnMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
+My research interests broadly encompass Multimodal Large Language Models, Brain-inspired Computing, Spiking Neural Networks, Model Compression, etc. I have published papers in leading AI conferences and journals, including ICML, ICLR, NeurIPS, AAAI, and IJCAI. My Google Scholar citation record is available here <a href='https://scholar.google.com/citations?user=1VlWbnMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
 
 Telegram/Wechat: (+86) 13032875612. Please feel free to reach out to me.
 
 # 📖 Educations
-- *2020.09 - 2024.06*, B.S. in Artificial Intelligence (School of Computer Science and Engineering, University of Electronic Science and Technology of China)
-- *2024.09 - 2026.03*, M.S. in Computer Technology (School of Computer Science and Engineering, University of Electronic Science and Technology of China)
+- *2020.09 - 2024.06*, B.Eng. in Artificial Intelligence (School of Computer Science and Engineering, University of Electronic Science and Technology of China)
+- *2024.09 - 2026.03*, M.Eng. in Computer Technology (School of Computer Science and Engineering, University of Electronic Science and Technology of China)
 - *2026.03 - 2029.06 (Expected)*, Ph.D. Student in Computer Science and Technology (School of Computer Science and Engineering, University of Electronic Science and Technology of China)
 
 # 🎖 Honors and Awards
