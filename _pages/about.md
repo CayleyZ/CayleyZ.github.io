@@ -37,8 +37,8 @@ Telegram/Wechat: (+86) 13032875612. Please feel free to reach out to me.
 - *2023.5* Outstanding Winner and Leonhard Euler Award in the Interdisciplinary Contest in Modeling (美国大学生数学建模竞赛O奖)
 
 # 💻 Internships
-- *2025.12 - Current*, [ModelBest](https://www.modelbest.cn/). 
-Multimodal Group, Basic Modeling Department. Research aims to improve the grounding and counting capabilities of Multimodal Large Language Models.
+- *2025.12 - 2026.06*, [ModelBest](https://www.modelbest.cn/). 
+Multimodal Group, Basic Modeling Department. Research aims to improve the grounding and counting capabilities of Multimodal Large Language Models. Supervised by [Chongyi Wang](https://openreview.net/profile?id=~Chongyi_Wang1).
 
 # 💬 Academic Services
 - Conference Reviewer: NeurIPS 2025, AAAI 2026, ICLR 2026, ICML 2026 (Gold Reviewer Award), NeurIPS 2026, etc.
@@ -57,7 +57,7 @@ SmoothSpike: Spiking Transformer with Learnable Hadamard Transformation <img src
 
 - SmoothSpike enhances the representational capacity of spiking transformers by suppressing spike saturation with a learnable Hadamard transformation.
 
-- [<img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000" alt="Paper" />](https://icml.cc/virtual/2026/poster/63665)
+- [<img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000" alt="Paper" />](https://icml.cc/virtual/2026/poster/63665) \| [<img src="https://img.shields.io/badge/Code-fff?logo=github&logoColor=000" alt="Code" />](https://github.com/CayleyZ/SmoothSpike)
 </div>
 </div>
 
@@ -70,7 +70,7 @@ Positional Encoding for Spiking Transformers <img src="https://img.shields.io/ba
 
 - This work introduces Spiking Positional Encoding with a PE-LIF neuron layer, embedding positional information into neuron thresholds while preserving spike-driven computation.
 
-- [<img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000" alt="Paper" />](https://icml.cc/virtual/2026/poster/61080)
+- [<img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000" alt="Paper" />](https://icml.cc/virtual/2026/poster/61080) \| [<img src="https://img.shields.io/badge/Code-fff?logo=github&logoColor=000" alt="Code" />](https://github.com/CayleyZ/SPE)
 </div>
 </div>
 
@@ -83,7 +83,7 @@ AdaS: Adaptive Gradient Descent for Spiking Transformers <img src="https://img.s
 
 - AdaS analyzes noisy surrogate-gradient updates in spiking transformers and adaptively controls update-direction noise to improve training stability and performance.
 
-- [<img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000" alt="Paper" />](https://icml.cc/virtual/2026/poster/62239)
+- [<img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000" alt="Paper" />](https://icml.cc/virtual/2026/poster/62239) \| [<img src="https://img.shields.io/badge/Code-fff?logo=github&logoColor=000" alt="Code" />](https://github.com/CayleyZ/AdaS)
 </div>
 </div>
 
@@ -104,15 +104,15 @@ Honglin Cao\*, **Zijian Zhou**\*, Wenjie Wei, Ammar Belatreche, Yu Liang, Dehao 
 
 <ul>
   <li>
-      <p><img src="https://img.shields.io/badge/NeurIPS-green" alt="NeurIPS" /> <img src="https://img.shields.io/badge/2024-yellow" alt="2024" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> Spike-based Neuromorphic Model for Sound Source Localization. <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ce953d71deeb33d9ffa2c879b518d273-Abstract-Conference.html"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a>
+      <p><img src="https://img.shields.io/badge/NeurIPS-green" alt="NeurIPS" /> <img src="https://img.shields.io/badge/2024-yellow" alt="2024" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> Spike-based Neuromorphic Model for Sound Source Localization. <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ce953d71deeb33d9ffa2c879b518d273-Abstract-Conference.html"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a> | <a href="https://github.com/i-spoon/Spike-based-Neuromorphic-Sound-Source-Localization"><img src="https://img.shields.io/badge/Code-fff?logo=github&amp;logoColor=000" alt="Code" /></a>
   <br /> Dehao Zhang, Shuai Wang, Ammar Belatreche, Wenjie Wei, Yichen Xiao, Haorui Zheng, <strong>Zijian Zhou</strong>, Malu Zhang, Yang Yang</p>
   </li>
   <li>
-    <p><img src="https://img.shields.io/badge/AAAI-green" alt="AAAI" /> <img src="https://img.shields.io/badge/2025-yellow" alt="2025" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> Towards Accurate Binary Spiking Neural Networks: Learning with Adaptive Gradient Modulation Mechanism. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32130"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a>
+    <p><img src="https://img.shields.io/badge/AAAI-green" alt="AAAI" /> <img src="https://img.shields.io/badge/2025-yellow" alt="2025" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> Towards Accurate Binary Spiking Neural Networks: Learning with Adaptive Gradient Modulation Mechanism. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32130"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a> | <a href="https://github.com/hamings1/AGMM"><img src="https://img.shields.io/badge/Code-fff?logo=github&amp;logoColor=000" alt="Code" /></a>
 <br /> Yu Liang, Wenjie Wei, Ammar Belatreche, Honglin Cao, <strong>Zijian Zhou</strong>, Shuai Wang, Malu Zhang, Yang Yang</p>
   </li>
   <li>
-    <p><img src="https://img.shields.io/badge/ICLR-green" alt="ICLR" /> <img src="https://img.shields.io/badge/2025-yellow" alt="2025" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> QP-SNN: Quantized and Pruned Spiking Neural Networks. <a href="https://openreview.net/forum?id=MiPyle6Jef"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a>
+    <p><img src="https://img.shields.io/badge/ICLR-green" alt="ICLR" /> <img src="https://img.shields.io/badge/2025-yellow" alt="2025" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> QP-SNN: Quantized and Pruned Spiking Neural Networks. <a href="https://openreview.net/forum?id=MiPyle6Jef"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a> | <a href="https://github.com/Wenjie-Wei/QP-SNN"><img src="https://img.shields.io/badge/Code-fff?logo=github&amp;logoColor=000" alt="Code" /></a>
 <br /> Wenjie Wei, Malu Zhang, <strong>Zijian Zhou</strong>, Ammar Belatreche, Yimeng Shan, Yu Liang, Honglin Cao, Jieyuan Zhang, Yang Yang</p>
   </li>
   <li>
@@ -120,7 +120,7 @@ Honglin Cao\*, **Zijian Zhou**\*, Wenjie Wei, Ammar Belatreche, Yu Liang, Dehao 
 <br /> Malu Zhang, Shuai Wang, Jibin Wu, Wenjie Wei, Dehao Zhang, <strong>Zijian Zhou</strong>, Siying Wang, Fan Zhang, Yang Yang</p>
   </li>
   <li>
-    <p><img src="https://img.shields.io/badge/IEEE--TEVC-green" alt="IEEE TEVC" /> <img src="https://img.shields.io/badge/2025-yellow" alt="2025" /> Spike-Driven Lightweight Large Language Model With Evolutionary Computation. <a href="https://doi.org/10.1109/TEVC.2025.3606613"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a>
+    <p><img src="https://img.shields.io/badge/IEEE--TEVC-green" alt="IEEE TEVC" /> <img src="https://img.shields.io/badge/2025-yellow" alt="2025" /> Spike-Driven Lightweight Large Language Model With Evolutionary Computation. <a href="https://doi.org/10.1109/TEVC.2025.3606613"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a> | <a href="https://github.com/hamings1/EQ-SpikeLM"><img src="https://img.shields.io/badge/Code-fff?logo=github&amp;logoColor=000" alt="Code" /></a>
 <br /> Malu Zhang, Wenjie Wei, <strong>Zijian Zhou</strong>, Wanlong Liu, Jie Zhang, Ammar Belatreche, Yang Yang</p>
   </li>
   <li>
@@ -128,7 +128,7 @@ Honglin Cao\*, **Zijian Zhou**\*, Wenjie Wei, Ammar Belatreche, Yu Liang, Dehao 
 <br /> Honglin Cao, Shuai Wang, <strong>Zijian Zhou</strong>, Ammar Belatreche, Wenjie Wei, Yu Liang, Yu Yang, Rui Xi, Malu Zhang, Haizhou Li</p>
   </li>
   <li>
-    <p><img src="https://img.shields.io/badge/ICLR-green" alt="ICLR" /> <img src="https://img.shields.io/badge/2026-yellow" alt="2026" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> TP-Spikformer: Token Pruned Spiking Transformer. <a href="https://openreview.net/forum?id=L5llQD0nMf"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a>
+    <p><img src="https://img.shields.io/badge/ICLR-green" alt="ICLR" /> <img src="https://img.shields.io/badge/2026-yellow" alt="2026" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> TP-Spikformer: Token Pruned Spiking Transformer. <a href="https://openreview.net/forum?id=L5llQD0nMf"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a> | <a href="https://github.com/xlzhou126/TP-Spikformer/tree/main"><img src="https://img.shields.io/badge/Code-fff?logo=github&amp;logoColor=000" alt="Code" /></a>
 <br /> Wenjie Wei, Xiaolong Zhou, Malu Zhang, Ammar Belatreche, Qian Sun, Yimeng Shan, Dehao Zhang, <strong>Zijian Zhou</strong>, Zeyu Ma, Yang Yang, Haizhou Li</p>
   </li>
   <li>
@@ -140,7 +140,7 @@ Honglin Cao\*, **Zijian Zhou**\*, Wenjie Wei, Ammar Belatreche, Yu Liang, Dehao 
 <br /> Hanwen Liu, <strong>Zijian Zhou</strong>, Kexin Shi, Wenjie Wei, Wenyu Chen, Jibin Wu, Malu Zhang, Yang Yang</p>
   </li>
   <li>
-    <p><img src="https://img.shields.io/badge/ICML-green" alt="ICML" /> <img src="https://img.shields.io/badge/2026-yellow" alt="2026" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> SpikingLM: Towards Fully Spiking Language Model. <a href="https://icml.cc/virtual/2026/poster/64012"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a>
+    <p><img src="https://img.shields.io/badge/ICML-green" alt="ICML" /> <img src="https://img.shields.io/badge/2026-yellow" alt="2026" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> SpikingLM: Towards Fully Spiking Language Model. <a href="https://icml.cc/virtual/2026/poster/64012"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a> | <a href="https://github.com/hamings1/SpikingLM"><img src="https://img.shields.io/badge/Code-fff?logo=github&amp;logoColor=000" alt="Code" /></a>
 <br /> Yu Liang, <strong>Zijian Zhou</strong>, Wenjie Wei, Shuai Wang, Honglin Cao, Ammar Belatreche, Yu Yang, Malu Zhang, Yang Yang, Haizhou Li</p>
   </li>
 </ul>
