@@ -12,8 +12,11 @@ main:
   - title: "Internships"
     url: "/#-internships"
 
+  - title: "Publications"
+    url: "/#-publications"
+
   - title: "Academic Services"
     url: "/#-academic-services"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Teaching"
+    url: "/#teaching"

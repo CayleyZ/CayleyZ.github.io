@@ -40,10 +40,6 @@ Telegram/Wechat: (+86) 13032875612. Please feel free to reach out to me.
 - *2025.12 - 2026.06*, [ModelBest](https://www.modelbest.cn/). 
 Multimodal Group, Basic Modeling Department. Research aims to improve the grounding and counting capabilities of Multimodal Large Language Models. Supervised by [Chongyi Wang](https://openreview.net/profile?id=~Chongyi_Wang1).
 
-# 💬 Academic Services
-- Conference Reviewer: NeurIPS 2025, AAAI 2026, ICLR 2026, ICML 2026 (Gold Reviewer Award), NeurIPS 2026, etc.
-- Journal Reviewer: Transactions on Machine Learning Research, IEEE Transactions on Cognitive and Developmental Systems, etc.
-
 # 📝 Publications
 
 ## First Author
@@ -143,4 +139,18 @@ Honglin Cao\*, **Zijian Zhou**\*, Wenjie Wei, Ammar Belatreche, Yu Liang, Dehao 
     <p><img src="https://img.shields.io/badge/ICML-green" alt="ICML" /> <img src="https://img.shields.io/badge/2026-yellow" alt="2026" /> <img src="https://img.shields.io/badge/CCF--A-darkblue" alt="CCF-A" /> SpikingLM: Towards Fully Spiking Language Model. <a href="https://icml.cc/virtual/2026/poster/64012"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="Paper" /></a> | <a href="https://github.com/hamings1/SpikingLM"><img src="https://img.shields.io/badge/Code-fff?logo=github&amp;logoColor=000" alt="Code" /></a>
 <br /> Yu Liang, <strong>Zijian Zhou</strong>, Wenjie Wei, Shuai Wang, Honglin Cao, Ammar Belatreche, Yu Yang, Malu Zhang, Yang Yang, Haizhou Li</p>
   </li>
+</ul>
+
+# 💬 Academic Services
+- Conference Reviewer: NeurIPS 2025, AAAI 2026, ICLR 2026, ICML 2026 (Gold Reviewer Award), NeurIPS 2026, etc.
+- Journal Reviewer: Transactions on Machine Learning Research, IEEE Transactions on Cognitive and Developmental Systems, etc.
+
+# 📚 Teaching
+{: #teaching }
+
+<ul class="teaching-list">
+  <li>Spring 2024, Fall 2024, Spring 2025: Digital Logic, UESTC, Teaching Assistant</li>
+  <li>Spring 2024, 2025: Statistical Learning (Challenging Course), UESTC, Teaching Assistant</li>
+  <li>Spring 2024, 2025: Digital Logic Laboratory, UESTC, Teaching Assistant</li>
+  <li>Spring 2024, 2025: Discrete Mathematics, UESTC, Teaching Assistant</li>
 </ul>
