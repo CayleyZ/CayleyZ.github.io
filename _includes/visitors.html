@@ -1,6 +1,6 @@
 {% assign visitor_api_url = site.visitor_stats_url | default: "" | strip %}
 {% if visitor_api_url != "" %}
-<span class="anchor" id="visitors"></span>
+<h1 id="visitors">🌍 Visitors</h1>
 <div class="visitor-stats" data-visitor-stats data-api="{{ visitor_api_url | escape }}" data-track="{% if jekyll.environment == 'production' %}true{% else %}false{% endif %}">
   <p class="visitor-stats__summary" data-visitor-status role="status"><span class="visitor-stats__count" data-visits>—</span> <span data-visitor-label>visitors</span></p>
   <svg class="visitor-stats__map" viewBox="0 0 720 360" role="img" aria-label="World map showing approximate visitor locations">
