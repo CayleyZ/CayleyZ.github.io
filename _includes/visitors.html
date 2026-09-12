@@ -1,25 +1,13 @@
 {% assign visitor_api_url = site.visitor_stats_url | default: "" | strip %}
 {% if visitor_api_url != "" %}
-<h1 id="visitors">🌍 Visitors</h1>
+<span class="anchor" id="visitors"></span>
 <div class="visitor-stats" data-visitor-stats data-api="{{ visitor_api_url | escape }}" data-track="{% if jekyll.environment == 'production' %}true{% else %}false{% endif %}">
-  <dl class="visitor-stats__totals">
-    <div><dt>Visits</dt><dd data-visits>—</dd></div>
-    <div><dt>Countries / regions</dt><dd data-countries>—</dd></div>
-  </dl>
-  <svg class="visitor-stats__map" viewBox="0 0 720 360" role="img" aria-label="World map showing approximate visitor locations and visit counts">
+  <p class="visitor-stats__summary" data-visitor-status role="status"><span class="visitor-stats__count" data-visits>—</span> <span data-visitor-label>visitors</span></p>
+  <svg class="visitor-stats__map" viewBox="0 0 720 360" role="img" aria-label="World map showing approximate visitor locations">
     <image href="{{ '/assets/geo/world-land.svg' | relative_url }}" width="720" height="360" />
     <g data-visitor-points></g>
   </svg>
-  <p class="visitor-stats__status" data-visitor-status role="status">Loading visitor statistics…</p>
-  <div class="visitor-stats__countries" data-country-table hidden>
-    <table>
-      <caption class="visually-hidden">Visitor origins</caption>
-      <thead><tr><th scope="col">Country / region</th><th scope="col">Visits</th></tr></thead>
-      <tbody data-country-rows></tbody>
-    </table>
-  </div>
-  <p class="visitor-stats__note">Visits are counted once per tab per day (UTC). Locations are approximate. Map: <a href="https://www.naturalearthdata.com/about/terms-of-use/" rel="noopener">Natural Earth</a>.</p>
-  <noscript><p>Please enable JavaScript to view visitor statistics.</p></noscript>
+
 </div>
 <script defer src="{{ '/assets/js/visitors.js' | relative_url }}"></script>
 {% endif %}

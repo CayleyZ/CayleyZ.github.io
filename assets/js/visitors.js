@@ -2,9 +2,12 @@
   "use strict";
   const root = document.querySelector("[data-visitor-stats]");
   if (!root) return;
-  const status = root.querySelector("[data-visitor-status]");
+  const label = root.querySelector("[data-visitor-label]");
+  function unavailable() {
+    label.textContent = "visitor statistics unavailable";
+    root.dataset.state = "error";
+  }
   const number = new Intl.NumberFormat("en");
-  const compact = new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 });
   const names = typeof Intl.DisplayNames === "function" ? new Intl.DisplayNames(["en"], { type: "region" }) : null;
   const countryName = (code) => code === "ZZ" ? "Unknown" : (names?.of(code) || code);
   const ns = "http://www.w3.org/2000/svg";
@@ -14,7 +17,7 @@
     if (api.protocol !== "https:" && !["localhost", "127.0.0.1"].includes(api.hostname)) throw new Error();
     api = api.href.replace(/\/$/, "");
   } catch {
-    status.textContent = "Visitor statistics are temporarily unavailable.";
+    unavailable();
     return;
   }
 
@@ -48,43 +51,31 @@
   }
 
   function render(data) {
-    root.querySelector("[data-visits]").textContent = number.format(data.visits);
-    root.querySelector("[data-countries]").textContent = number.format(data.country_count);
+    root.querySelector("[data-visits]").textContent = String(data.visits).padStart(6, "0");
     const points = root.querySelector("[data-visitor-points]");
     points.replaceChildren();
-    // Smaller markers are painted last so they remain visible near busy locations.
+    // The tip of each pin sits at the approximate location.
     data.locations.slice().sort((a, b) => b.visits - a.visits).forEach((location) => {
       const point = document.createElementNS(ns, "g");
       point.setAttribute("transform", `translate(${(location.longitude + 180) * 2},${(90 - location.latitude) * 2})`);
       const title = document.createElementNS(ns, "title");
       title.textContent = `${countryName(location.country)}: ${number.format(location.visits)} visits (approximate location)`;
-      const circle = document.createElementNS(ns, "circle");
-      circle.setAttribute("r", Math.min(18, 9 + Math.log10(location.visits + 1) * 3));
-      const text = document.createElementNS(ns, "text");
-      text.setAttribute("text-anchor", "middle");
-      text.setAttribute("dy", ".35em");
-      text.textContent = compact.format(location.visits);
-      point.append(title, circle, text);
+      const pin = document.createElementNS(ns, "path");
+      pin.setAttribute("d", "M0 0C-2.5-3.5-7-8-7-12a7 7 0 1 1 14 0C7-8 2.5-3.5 0 0Z");
+      const center = document.createElementNS(ns, "circle");
+      center.setAttribute("cy", "-12");
+      center.setAttribute("r", "2.4");
+      point.append(title, pin, center);
       points.append(point);
     });
-    const rows = root.querySelector("[data-country-rows]");
-    rows.replaceChildren();
-    data.countries.forEach((country) => {
-      const row = document.createElement("tr");
-      const label = document.createElement("th");
-      label.scope = "row";
-      label.textContent = countryName(country.country);
-      const count = document.createElement("td");
-      count.textContent = number.format(country.visits);
-      row.append(label, count);
-      rows.append(row);
-    });
-    root.querySelector("[data-country-table]").hidden = data.countries.length === 0;
     const since = data.started_at ? new Date(data.started_at) : null;
-    status.textContent = data.visits === 0 ? "No visits recorded yet."
-      : since && Number.isFinite(since.getTime())
-        ? `Visitors since ${since.toLocaleDateString("en", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" })}. Updates may take a minute.`
-        : "Updates may take a minute.";
+    if (since && Number.isFinite(since.getTime())) {
+      const month = since.toLocaleDateString("en", { month: "short", timeZone: "UTC" });
+      label.textContent = `visitors since ${month}. ${since.getUTCFullYear()}`;
+    } else {
+      label.textContent = "visitors";
+    }
+    root.dataset.state = "ready";
   }
 
   async function load() {
@@ -100,7 +91,7 @@
       if (!data) data = await request("/stats");
       render(data);
     } catch {
-      status.textContent = "Visitor statistics are temporarily unavailable. Please try again later.";
+      unavailable();
     }
   }
   load();

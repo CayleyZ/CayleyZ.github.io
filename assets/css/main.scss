@@ -109,16 +109,26 @@ h1:before, .anchor:before {
 }
 
 .visitor-stats {
-    margin-bottom: 2em;
+    width: 50%;
+    margin: 1.5em auto 2em;
 
-    &__totals {
+    &__summary {
         display: flex;
         flex-wrap: wrap;
-        gap: 1em 3em;
-        margin: 0 0 1em;
+        justify-content: center;
+        align-items: baseline;
+        gap: .25em .5em;
+        margin-bottom: .65em !important;
+        text-align: center;
+        font-size: .85em !important;
+    }
 
-        dt { margin: 0; font-weight: normal; }
-        dd { margin: 0; color: $info-color; font-size: 1.8em; font-weight: bold; }
+    &__count {
+        color: $info-color;
+        font-family: $monospace;
+        font-style: italic;
+        letter-spacing: .15em;
+        font-variant-numeric: tabular-nums;
     }
 
     &__map {
@@ -128,19 +138,7 @@ h1:before, .anchor:before {
         background: #f6f9fc;
         border: 1px solid $border-color;
 
-        circle { fill: $info-color; fill-opacity: .88; stroke: #fff; stroke-width: 1; }
-        text { fill: #fff; font: bold 10px $sans-serif; pointer-events: none; }
-    }
-
-    &__status, &__note { font-size: .85em !important; }
-    &__status { margin-top: .65em !important; }
-    &__countries {
-        max-height: 13em;
-        overflow-y: auto;
-        margin: 1em 0;
-
-        table { margin: 0; width: 100%; }
-        th[scope="row"] { font-weight: normal; }
-        th:last-child, td:last-child { text-align: right; }
+        [data-visitor-points] path { fill: $info-color; stroke: #fff; stroke-width: .8; }
+        [data-visitor-points] circle { fill: #fff; pointer-events: none; }
     }
 }

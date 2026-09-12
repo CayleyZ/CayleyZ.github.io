@@ -18,13 +18,13 @@ async function page(t, fetch, configure = () => {}) {
   dom.window.eval(source);
   // Wait for the visible result rather than assuming a specific number of microtasks.
   for (let i = 0; i < 100; i++) {
-    if (!dom.window.document.querySelector('[data-visitor-status]').textContent.startsWith("Loading")) return dom.window;
+    if (dom.window.document.querySelector("[data-visitor-stats]").dataset.state) return dom.window;
     await new Promise((resolve) => setTimeout(resolve, 5));
   }
   throw new Error("Statistics UI did not settle");
 }
 
-test("records once, renders map numbers and country names, and only reads on refresh", async (t) => {
+test("records once, renders the compact counter and pins, and only reads on refresh", async (t) => {
   const calls = [];
   const window = await page(t, async (url, options) => {
     calls.push({ url, options });
@@ -35,9 +35,11 @@ test("records once, renders map numbers and country names, and only reads on ref
   assert.equal(calls[0].options.method, "POST");
   assert.equal(calls[0].options.credentials, "omit");
   assert.deepEqual(Object.keys(JSON.parse(calls[0].options.body)), ["session"]);
-  assert.equal(doc.querySelector("[data-visits]").textContent, "3");
-  assert.equal(doc.querySelector("[data-visitor-points] text").textContent, "3");
-  assert.equal(doc.querySelector("[data-country-rows] th").textContent, "China");
+  assert.equal(doc.querySelector("[data-visits]").textContent, "000003");
+  assert.equal(doc.querySelectorAll("[data-visitor-points] path").length, 1);
+  assert.equal(doc.querySelectorAll("[data-visitor-points] text").length, 0);
+  assert.equal(doc.querySelector("[data-visitor-label]").textContent, "visitors since Sep. 2026");
+  assert.equal(doc.querySelector("table"), null);
   window.eval(source);
   await new Promise((resolve) => setTimeout(resolve, 10));
   assert.equal(calls[1].url, "https://stats.example/stats");
@@ -63,16 +65,16 @@ test("write failures still show real existing statistics and remain retryable", 
     return url.endsWith("/visit") ? new Response(null, { status: 503 }) : Response.json(data);
   });
   assert.equal(calls.length, 2);
-  assert.equal(window.document.querySelector("[data-visits]").textContent, "3");
+  assert.equal(window.document.querySelector("[data-visits]").textContent, "000003");
   assert.ok(!Object.keys(window.sessionStorage).some((key) => key.startsWith("homepage-visitor-recorded")));
 });
 
 test("empty data and unavailable service never show invented visitor markers", async (t) => {
   const empty = await page(t, async () => Response.json({ visits: 0, country_count: 0, started_at: null, countries: [], locations: [] }));
-  assert.equal(empty.document.querySelector("[data-visits]").textContent, "0");
+  assert.equal(empty.document.querySelector("[data-visits]").textContent, "000000");
   assert.equal(empty.document.querySelectorAll("[data-visitor-points] circle").length, 0);
-  assert.equal(empty.document.querySelector("[data-country-table]").hidden, true);
+  assert.equal(empty.document.querySelector("[data-visitor-label]").textContent, "visitors");
   const failed = await page(t, async () => { throw new Error("offline"); });
   assert.equal(failed.document.querySelector("[data-visits]").textContent, "—");
-  assert.match(failed.document.querySelector("[data-visitor-status]").textContent, /temporarily unavailable/);
+  assert.match(failed.document.querySelector("[data-visitor-status]").textContent, /unavailable/);
 });
