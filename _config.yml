@@ -11,6 +11,9 @@ description              : "Ph.D. student at UESTC. My research focuses on brain
 repository               : "CayleyZ/CayleyZ.github.io"
 google_scholar_stats_use_cdn : true
 
+# Self-hosted visitor statistics. Empty keeps the section and navigation hidden.
+visitor_stats_url         : "https://zijianzhou-visitors.zijianzhou-visitors.workers.dev"
+
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
@@ -65,6 +68,7 @@ include:
   - _pages
   - files
 exclude:
+  - visitor-service
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

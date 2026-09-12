@@ -1,0 +1,24 @@
+name = "zijianzhou-visitors"
+main = "src/index.js"
+compatibility_date = "2026-09-11"
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGINS = "https://zijianzhou.xyz,https://cayleyz.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "homepage-visitors"
+database_id = "adfb7f81-3b8a-47ab-a269-c6de39220e17"
+migrations_dir = "migrations"
+
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "98292391"
+simple = { limit = 30, period = 60 }
+
+[triggers]
+crons = ["17 * * * *"]
+
+[observability]
+enabled = false

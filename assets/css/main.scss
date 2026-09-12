@@ -107,3 +107,40 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.visitor-stats {
+    margin-bottom: 2em;
+
+    &__totals {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em 3em;
+        margin: 0 0 1em;
+
+        dt { margin: 0; font-weight: normal; }
+        dd { margin: 0; color: $info-color; font-size: 1.8em; font-weight: bold; }
+    }
+
+    &__map {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: #f6f9fc;
+        border: 1px solid $border-color;
+
+        circle { fill: $info-color; fill-opacity: .88; stroke: #fff; stroke-width: 1; }
+        text { fill: #fff; font: bold 10px $sans-serif; pointer-events: none; }
+    }
+
+    &__status, &__note { font-size: .85em !important; }
+    &__status { margin-top: .65em !important; }
+    &__countries {
+        max-height: 13em;
+        overflow-y: auto;
+        margin: 1em 0;
+
+        table { margin: 0; width: 100%; }
+        th[scope="row"] { font-weight: normal; }
+        th:last-child, td:last-child { text-align: right; }
+    }
+}

@@ -20,3 +20,7 @@ main:
 
   - title: "Teaching"
     url: "/#teaching"
+
+  - title: "Visitors"
+    url: "/#visitors"
+    requires_visitors: true
