@@ -8,18 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
+{% comment %}Shields fetches this server-side, so avoid the extra jsDelivr cache.{% endcomment %}
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
 Hello👋! I am Zijian Zhou (周仔谏), a Ph.D. student in the School of Computer Science and Engineering at the University of Electronic Science and Technology of China (UESTC), Chengdu, China, starting from Spring 2026. I am advised by Prof. Malu Zhang (张马路). Currently, I am also participating in a joint Ph.D. program at the Shenzhen Loop Area Institute.
 
-My research interests broadly encompass Multimodal Large Language Models, Brain-inspired Computing, Spiking Neural Networks, Model Compression, etc. I have published papers in leading AI conferences and journals, including ICML, ICLR, NeurIPS, AAAI, and IJCAI. My Google Scholar citation record is available here <a href='https://scholar.google.com/citations?user=1VlWbnMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
+My research interests broadly encompass Multimodal Large Language Models, Brain-inspired Computing, Spiking Neural Networks, Model Compression, etc. I have published papers in leading AI conferences and journals, including ICML, ICLR, NeurIPS, AAAI, and IJCAI. My Google Scholar citation record is available here <a href='https://scholar.google.com/citations?user=1VlWbnMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations&cacheSeconds=3600" alt="Google Scholar citations"></a>.
 
 Telegram/Wechat: (+86) 13032875612. Please feel free to reach out to me.
 
