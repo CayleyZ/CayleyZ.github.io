@@ -2,8 +2,8 @@
   "scholar_id": "1VlWbnMAAAAJ",
   "name": "Zijian Zhou",
   "source": "AUTHOR_PROFILE_PAGE",
-  "citedby": 176,
-  "citedby5y": 175,
+  "citedby": 179,
+  "citedby5y": 178,
   "hindex": 7,
   "hindex5y": 7,
   "i10index": 6,
@@ -11,7 +11,7 @@
   "publications": {
     "1VlWbnMAAAAJ:zYLM7Y9cAGgC": {
       "author_pub_id": "1VlWbnMAAAAJ:zYLM7Y9cAGgC",
-      "num_citations": 55,
+      "num_citations": 56,
       "bib": {
         "title": "Qp-snn: Quantized and pruned spiking neural networks",
         "author": "W Wei, M Zhang, Z Zhou, A Belatreche, Y Shan, Y Liang, H Cao, J Zhang, ...",
@@ -41,7 +41,7 @@
     },
     "1VlWbnMAAAAJ:2osOgNQ5qMEC": {
       "author_pub_id": "1VlWbnMAAAAJ:2osOgNQ5qMEC",
-      "num_citations": 20,
+      "num_citations": 21,
       "bib": {
         "title": "Towards accurate binary spiking neural networks: Learning with adaptive gradient modulation mechanism",
         "author": "Y Liang, W Wei, A Belatreche, H Cao, Z Zhou, S Wang, M Zhang, Y Yang",
@@ -61,7 +61,7 @@
     },
     "1VlWbnMAAAAJ:u-x6o8ySG0sC": {
       "author_pub_id": "1VlWbnMAAAAJ:u-x6o8ySG0sC",
-      "num_citations": 18,
+      "num_citations": 19,
       "bib": {
         "title": "Binary event-driven spiking transformer",
         "author": "H Cao*, Z Zhou*, W Wei, A Belatreche, Y Liang, D Zhang, M Zhang, ...",
@@ -163,7 +163,7 @@
   "cites_per_year": {
     "2024": 1,
     "2025": 53,
-    "2026": 121
+    "2026": 124
   },
-  "updated": "2026-10-21T13:33:56+00:00"
+  "updated": "2026-10-22T13:35:47+00:00"
 }
