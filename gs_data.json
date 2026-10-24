@@ -2,8 +2,8 @@
   "scholar_id": "1VlWbnMAAAAJ",
   "name": "Zijian Zhou",
   "source": "AUTHOR_PROFILE_PAGE",
-  "citedby": 179,
-  "citedby5y": 178,
+  "citedby": 182,
+  "citedby5y": 181,
   "hindex": 7,
   "hindex5y": 7,
   "i10index": 6,
@@ -19,6 +19,16 @@
         "pub_year": "2025"
       }
     },
+    "1VlWbnMAAAAJ:IjCSPb-OGe4C": {
+      "author_pub_id": "1VlWbnMAAAAJ:IjCSPb-OGe4C",
+      "num_citations": 25,
+      "bib": {
+        "title": "Toward energy-efficient spike-based deep reinforcement learning with temporal coding",
+        "author": "M Zhang, S Wang, J Wu, W Wei, D Zhang, Z Zhou, S Wang, F Zhang, ...",
+        "citation": "IEEE Computational Intelligence Magazine 20 (2), 45-57 , 2025",
+        "pub_year": "2025"
+      }
+    },
     "1VlWbnMAAAAJ:u5HHmVD_uO8C": {
       "author_pub_id": "1VlWbnMAAAAJ:u5HHmVD_uO8C",
       "num_citations": 25,
@@ -27,16 +37,6 @@
         "author": "D Zhang, S Wang, A Belatreche, W Wei, Y Xiao, H Zheng, Z Zhou, ...",
         "citation": "Advances in Neural Information Processing Systems 37, 113911-113936 , 2024",
         "pub_year": "2024"
-      }
-    },
-    "1VlWbnMAAAAJ:IjCSPb-OGe4C": {
-      "author_pub_id": "1VlWbnMAAAAJ:IjCSPb-OGe4C",
-      "num_citations": 24,
-      "bib": {
-        "title": "Toward energy-efficient spike-based deep reinforcement learning with temporal coding",
-        "author": "M Zhang, S Wang, J Wu, W Wei, D Zhang, Z Zhou, S Wang, F Zhang, ...",
-        "citation": "IEEE Computational Intelligence Magazine 20 (2), 45-57 , 2025",
-        "pub_year": "2025"
       }
     },
     "1VlWbnMAAAAJ:2osOgNQ5qMEC": {
@@ -71,7 +71,7 @@
     },
     "1VlWbnMAAAAJ:Y0pCki6q_DkC": {
       "author_pub_id": "1VlWbnMAAAAJ:Y0pCki6q_DkC",
-      "num_citations": 7,
+      "num_citations": 9,
       "bib": {
         "title": "Tp-spikformer: Token pruned spiking transformer",
         "author": "W Wei, X Zhou, M Zhang, A Belatreche, Q Sun, Y Shan, D Zhang, Z Zhou, ...",
@@ -163,7 +163,7 @@
   "cites_per_year": {
     "2024": 1,
     "2025": 53,
-    "2026": 124
+    "2026": 127
   },
-  "updated": "2026-10-22T13:35:47+00:00"
+  "updated": "2026-10-24T12:30:00+00:00"
 }
