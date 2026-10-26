@@ -2,8 +2,8 @@
   "scholar_id": "1VlWbnMAAAAJ",
   "name": "Zijian Zhou",
   "source": "AUTHOR_PROFILE_PAGE",
-  "citedby": 182,
-  "citedby5y": 181,
+  "citedby": 183,
+  "citedby5y": 182,
   "hindex": 7,
   "hindex5y": 7,
   "i10index": 6,
@@ -11,7 +11,7 @@
   "publications": {
     "1VlWbnMAAAAJ:zYLM7Y9cAGgC": {
       "author_pub_id": "1VlWbnMAAAAJ:zYLM7Y9cAGgC",
-      "num_citations": 56,
+      "num_citations": 57,
       "bib": {
         "title": "Qp-snn: Quantized and pruned spiking neural networks",
         "author": "W Wei, M Zhang, Z Zhou, A Belatreche, Y Shan, Y Liang, H Cao, J Zhang, ...",
@@ -163,7 +163,7 @@
   "cites_per_year": {
     "2024": 1,
     "2025": 53,
-    "2026": 127
+    "2026": 128
   },
-  "updated": "2026-10-24T12:30:00+00:00"
+  "updated": "2026-10-26T14:56:16+00:00"
 }
