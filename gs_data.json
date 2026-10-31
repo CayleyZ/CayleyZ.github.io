@@ -2,8 +2,8 @@
   "scholar_id": "1VlWbnMAAAAJ",
   "name": "Zijian Zhou",
   "source": "AUTHOR_PROFILE_PAGE",
-  "citedby": 183,
-  "citedby5y": 182,
+  "citedby": 184,
+  "citedby5y": 183,
   "hindex": 7,
   "hindex5y": 7,
   "i10index": 6,
@@ -11,12 +11,22 @@
   "publications": {
     "1VlWbnMAAAAJ:zYLM7Y9cAGgC": {
       "author_pub_id": "1VlWbnMAAAAJ:zYLM7Y9cAGgC",
-      "num_citations": 57,
+      "num_citations": 58,
       "bib": {
         "title": "Qp-snn: Quantized and pruned spiking neural networks",
         "author": "W Wei, M Zhang, Z Zhou, A Belatreche, Y Shan, Y Liang, H Cao, J Zhang, ...",
         "citation": "ICLR 2025 , 2025",
         "pub_year": "2025"
+      }
+    },
+    "1VlWbnMAAAAJ:u5HHmVD_uO8C": {
+      "author_pub_id": "1VlWbnMAAAAJ:u5HHmVD_uO8C",
+      "num_citations": 26,
+      "bib": {
+        "title": "Spike-based neuromorphic model for sound source localization",
+        "author": "D Zhang, S Wang, A Belatreche, W Wei, Y Xiao, H Zheng, Z Zhou, ...",
+        "citation": "Advances in Neural Information Processing Systems 37, 113911-113936 , 2024",
+        "pub_year": "2024"
       }
     },
     "1VlWbnMAAAAJ:IjCSPb-OGe4C": {
@@ -29,16 +39,6 @@
         "pub_year": "2025"
       }
     },
-    "1VlWbnMAAAAJ:u5HHmVD_uO8C": {
-      "author_pub_id": "1VlWbnMAAAAJ:u5HHmVD_uO8C",
-      "num_citations": 25,
-      "bib": {
-        "title": "Spike-based neuromorphic model for sound source localization",
-        "author": "D Zhang, S Wang, A Belatreche, W Wei, Y Xiao, H Zheng, Z Zhou, ...",
-        "citation": "Advances in Neural Information Processing Systems 37, 113911-113936 , 2024",
-        "pub_year": "2024"
-      }
-    },
     "1VlWbnMAAAAJ:2osOgNQ5qMEC": {
       "author_pub_id": "1VlWbnMAAAAJ:2osOgNQ5qMEC",
       "num_citations": 21,
@@ -49,16 +49,6 @@
         "pub_year": "2025"
       }
     },
-    "1VlWbnMAAAAJ:Tyk-4Ss8FVUC": {
-      "author_pub_id": "1VlWbnMAAAAJ:Tyk-4Ss8FVUC",
-      "num_citations": 19,
-      "bib": {
-        "title": "Spike-driven lightweight large language model with evolutionary computation",
-        "author": "M Zhang, W Wei, Z Zhou, W Liu, J Zhang, A Belatreche, Y Yang",
-        "citation": "IEEE Transactions on Evolutionary Computation , 2025",
-        "pub_year": "2025"
-      }
-    },
     "1VlWbnMAAAAJ:u-x6o8ySG0sC": {
       "author_pub_id": "1VlWbnMAAAAJ:u-x6o8ySG0sC",
       "num_citations": 19,
@@ -66,6 +56,16 @@
         "title": "Binary event-driven spiking transformer",
         "author": "H Cao*, Z Zhou*, W Wei, A Belatreche, Y Liang, D Zhang, M Zhang, ...",
         "citation": "IJCAI 2025 , 2025",
+        "pub_year": "2025"
+      }
+    },
+    "1VlWbnMAAAAJ:Tyk-4Ss8FVUC": {
+      "author_pub_id": "1VlWbnMAAAAJ:Tyk-4Ss8FVUC",
+      "num_citations": 18,
+      "bib": {
+        "title": "Spike-driven lightweight large language model with evolutionary computation",
+        "author": "M Zhang, W Wei, Z Zhou, W Liu, J Zhang, A Belatreche, Y Yang",
+        "citation": "IEEE Transactions on Evolutionary Computation , 2025",
         "pub_year": "2025"
       }
     },
@@ -163,7 +163,7 @@
   "cites_per_year": {
     "2024": 1,
     "2025": 53,
-    "2026": 128
+    "2026": 129
   },
-  "updated": "2026-10-26T14:56:16+00:00"
+  "updated": "2026-10-31T14:23:10+00:00"
 }
