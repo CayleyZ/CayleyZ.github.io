@@ -50,8 +50,13 @@ Telegram/Wechat: (+86) 13032875612. Please feel free to reach out to me.
 - *2023.5* Outstanding Winner and Leonhard Euler Award in the Interdisciplinary Contest in Modeling (美国大学生数学建模竞赛O奖)
 
 # 💻 Internships
-- *2025.12 - 2026.06*, [ModelBest](https://www.modelbest.cn/). 
-Multimodal Group, Basic Modeling Department. Research aims to improve the grounding and counting capabilities of Multimodal Large Language Models. Supervised by [Chongyi Wang](https://openreview.net/profile?id=~Chongyi_Wang1).
+
+<ul class="internship-list">
+  <li class="internship-item">
+    <img class="internship-logo" src="/images/modelbest-logo.png" alt="ModelBest logo" loading="lazy">
+    <div class="internship-details"><em>2025.12 - 2026.06</em>, <a href="https://www.modelbest.cn/">ModelBest</a>. Multimodal Group, Basic Modeling Department. Research aims to improve the grounding and counting capabilities of Multimodal Large Language Models. Supervised by <a href="https://openreview.net/profile?id=~Chongyi_Wang1">Chongyi Wang</a>.</div>
+  </li>
+</ul>
 
 # 📝 Publications
 

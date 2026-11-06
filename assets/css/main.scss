@@ -40,13 +40,15 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.page__content .education-list {
+.page__content .education-list,
+.page__content .internship-list {
     list-style: none;
     margin: 0 0 1em;
     padding: 0;
 }
 
-.education-list .education-item {
+.education-list .education-item,
+.internship-list .internship-item {
     display: flex;
     align-items: center;
     gap: 1em;
@@ -54,7 +56,8 @@
     padding: 0;
 }
 
-.education-logo {
+.education-logo,
+.internship-logo {
     display: block;
     flex: 0 0 57.6px;
     width: 57.6px;
@@ -67,19 +70,22 @@
     padding: 8px;
 }
 
-.education-details {
+.education-details,
+.internship-details {
     min-width: 0;
     line-height: 1.6;
     overflow-wrap: break-word;
 }
 
 @media (max-width: 600px) {
-    .education-list .education-item {
+    .education-list .education-item,
+    .internship-list .internship-item {
         align-items: flex-start;
         gap: .75em;
     }
 
-    .education-logo {
+    .education-logo,
+    .internship-logo {
         flex-basis: 44.8px;
         width: 44.8px;
         height: 44.8px;
