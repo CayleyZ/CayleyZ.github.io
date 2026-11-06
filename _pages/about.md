@@ -24,32 +24,20 @@ Telegram/Wechat: (+86) 13032875612. Please feel free to reach out to me.
 
 <ul class="education-list">
   <li class="education-item">
-    <img class="education-logo" src="/images/uestc-logo.svg" alt="UESTC logo" width="72" height="64" loading="lazy">
-    <div class="education-details">
-      <div><em>2020.09 - 2024.06</em>, B.Eng. in Artificial Intelligence</div>
-      <div>(School of Computer Science and Engineering, University of Electronic Science and Technology of China)</div>
-    </div>
+    <img class="education-logo" src="/images/uestc-logo.svg" alt="UESTC logo" loading="lazy">
+    <div class="education-details"><em>2020.09 - 2024.06</em>, B.Eng. in Artificial Intelligence (School of Computer Science and Engineering, University of Electronic Science and Technology of China)</div>
   </li>
   <li class="education-item">
-    <img class="education-logo" src="/images/uestc-logo.svg" alt="UESTC logo" width="72" height="64" loading="lazy">
-    <div class="education-details">
-      <div><em>2024.09 - 2025.12</em>, M.Eng. in Computer Technology</div>
-      <div>(School of Computer Science and Engineering, University of Electronic Science and Technology of China)</div>
-    </div>
+    <img class="education-logo" src="/images/uestc-logo.svg" alt="UESTC logo" loading="lazy">
+    <div class="education-details"><em>2024.09 - 2025.12</em>, M.Eng. in Computer Technology (School of Computer Science and Engineering, University of Electronic Science and Technology of China)</div>
   </li>
   <li class="education-item">
-    <img class="education-logo" src="/images/uestc-logo.svg" alt="UESTC logo" width="72" height="64" loading="lazy">
-    <div class="education-details">
-      <div><em>2026.03 - 2029.06 (Expected)</em>, Ph.D. Student in Computer Science and Technology</div>
-      <div>(School of Computer Science and Engineering, University of Electronic Science and Technology of China)</div>
-    </div>
+    <img class="education-logo" src="/images/uestc-logo.svg" alt="UESTC logo" loading="lazy">
+    <div class="education-details"><em>2026.03 - 2029.06 (Expected)</em>, Ph.D. Student in Computer Science and Technology (School of Computer Science and Engineering, University of Electronic Science and Technology of China)</div>
   </li>
   <li class="education-item">
-    <img class="education-logo" src="/images/slai-logo.png" alt="Shenzhen Loop Area Institute logo" width="72" height="64" loading="lazy">
-    <div class="education-details">
-      <div><em>2026.09 - 2029.06 (Expected)</em>, Ph.D. Student in Computer Science and Technology</div>
-      <div>(Center for Language, Intelligence and Machines, Shenzhen Loop Area Institute)</div>
-    </div>
+    <img class="education-logo" src="/images/slai-logo.png" alt="Shenzhen Loop Area Institute logo" loading="lazy">
+    <div class="education-details"><em>2026.09 - 2029.06 (Expected)</em>, Ph.D. Student in Computer Science and Technology (Center for Language, Intelligence and Machines, Shenzhen Loop Area Institute)</div>
   </li>
 </ul>
 
