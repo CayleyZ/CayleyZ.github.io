@@ -40,6 +40,48 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.page__content .education-list {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+.education-list .education-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0 0 1.1em;
+    padding: 0;
+}
+
+.education-logo {
+    display: block;
+    flex: 0 0 72px;
+    width: 72px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.education-details {
+    min-width: 0;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+    .education-list .education-item {
+        align-items: flex-start;
+        gap: .75em;
+    }
+
+    .education-logo {
+        flex-basis: 56px;
+        width: 56px;
+        height: 56px;
+        margin-top: .2em;
+    }
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
