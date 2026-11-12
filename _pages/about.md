@@ -54,7 +54,7 @@ Telegram/Wechat: (+86) 13032875612. Please feel free to reach out to me.
 <ul class="internship-list">
   <li class="internship-item">
     <img class="internship-logo" src="/images/modelbest-logo.png" alt="ModelBest logo" loading="lazy">
-    <div class="internship-details"><em>2025.12 - 2026.06</em>, <a href="https://www.modelbest.cn/">ModelBest</a>. Multimodal Group, Basic Modeling Department. Research aims to improve the grounding and counting capabilities of Multimodal Large Language Models. Supervised by <a href="https://openreview.net/profile?id=~Chongyi_Wang1">Chongyi Wang</a>.</div>
+    <div class="internship-details"><em>2025.12 - 2026.06</em>, <a href="https://www.modelbest.cn/">ModelBest</a>. Multimodal Group, Basic Modeling Department. Research aims to improve the grounding and counting capabilities of Multimodal Large Language Models. Supervised by <a href="https://www.semanticscholar.org/author/Chong-Yi-Wang/2249899670?sort=influence">Chongyi Wang</a>.</div>
   </li>
 </ul>
 
